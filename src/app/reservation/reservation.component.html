@@ -1,0 +1,49 @@
+
+<section class="container">
+    <h1 class="text-center text-mutedmb-2 mt-2">Faites votre réservation</h1>
+
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <img [src]="biensSelected.picture" alt="" width="150">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="mt-2">
+                <label for="">Nom</label>
+                <input type="text" class="form-control" placeholder="Nom">
+            </div>
+            <div class="mt-2">
+                <label for="">Prénom</label> 
+                <input type="text" class="form-control" placeholder="Prenom">
+            </div>
+            <div class="mt-2">
+                <label for="">Date arrivée</label>
+                <input type="date" class="form-control" placeholder="" >
+            </div>
+            <div class="mt-2">
+                <label for="">Date départ</label>
+                <input type="date" class="form-control" placeholder="">
+            </div>
+            <div class="mt-2">
+                <label for="">Nombre de nuits</label>
+                <input type="number" class="form-control" placeholder="Nombre de nuits">
+            </div>
+            <div class="mt-2">
+                <label for="">Prix Total</label>
+                <input type="text" class="form-control" placeholder="">
+            </div>
+            <div class="mt-2">
+                <button class="btn btn-success mt-2 btn-block w-100" (click)="validerReservation()">Valider</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+</section>
+
+
+
+

@@ -1,0 +1,7 @@
+nav {
+    background-color: rgba(34, 103, 223, 0.3) !important;
+    border-radius: 30px;
+    margin: 20px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
